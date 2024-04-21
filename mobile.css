@@ -1,1 +1,6 @@
-
+.hero-heading {
+  color: pink;
+  font-size: 4em;
+  background-color: black;
+  border-radius: 20px;
+}
