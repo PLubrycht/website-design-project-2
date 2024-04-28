@@ -1,6 +1,35 @@
-.hero-heading {
-  color: pink;
-  font-size: 4em;
-  background-color: black;
-  border-radius: 20px;
+body {
+  background: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%);
+  font-family: "Nunito";
+}
+.content {
+  width: 960px;
+  margin: 0 auto;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  padding-right: 20px;
+}
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+.navbar-links a {
+  text-decoration: none;
+  color: #4b5d68;
+}
+.navbar-links a:first-of-type {
+  font-weight: 800;
+  color: #212353;
+}
+.navbar-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-button-link {
+  margin-right: 100px;
 }
