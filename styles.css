@@ -50,7 +50,7 @@ body {
   width: 20px;
   margin-left: 20px;
 }
-.main-sections{
+.main-sections {
   margin-top: 110px;
 }
 .hero-section {
@@ -97,7 +97,6 @@ body {
   align-items: center;
   gap: 80px;
   padding-left: 50px;
-  margin-top
 }
 .about-section-text-box {
   width: 470px;
@@ -117,4 +116,27 @@ body {
   line-height: 28.8px;
   text-align: left;
   color: #4b5d68;
+}
+.features-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.features-heading {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  color: #212353;
+}
+.features-text {
+  width: 50%;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28.8px;
+  text-align: center;
+  color: #4b5d68;
+}
+.features-cards {
+  display: flex;
 }
