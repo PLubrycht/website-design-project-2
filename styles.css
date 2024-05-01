@@ -140,3 +140,29 @@ body {
 .features-cards {
   display: flex;
 }
+.features-box-main-content {
+  display: flex;
+  flex-direction: column;
+}
+.features-card-heading {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31.2px;
+  text-align: left;
+  color: #212353;
+}
+.features-card-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+  color: #4b5d68;
+}
+.features-card-link {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 25.6px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  color: #212353;
+}
