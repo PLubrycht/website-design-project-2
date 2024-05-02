@@ -137,12 +137,20 @@ body {
   text-align: center;
   color: #4b5d68;
 }
-.features-cards {
+.features-boxes {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.features-box-main-content {
+.features-card {
+  width: 442px;
+  height: 358px;
+}
+.features-card-main-content {
   display: flex;
   flex-direction: column;
+  width: 50%;
 }
 .features-card-heading {
   font-size: 24px;
